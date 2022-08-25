@@ -528,9 +528,9 @@ footer {
         display: block;
     }
 
-    .container > .container-photo {
+    /* .container > .container-photo {
         margin-top: 50px;
-    }
+    } */
     .container-group-content > .container-left {
         padding: 4%;
     }
