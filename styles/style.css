@@ -14,10 +14,6 @@ header{
 }
 
 
-
-
-
-
 .navbar{
     background: #ffffff;
     width: 85%;
@@ -571,6 +567,16 @@ footer {
     
     .dots-group{
         left: 32%;
+    }
+
+    .navbar {
+        position: fixed;
+        width: 93%;
+        z-index: 10;
+    }
+    .header {
+        position: fixed;
+        z-index: 10;
     }
 
     .nav-menu > .nav-menu-list {

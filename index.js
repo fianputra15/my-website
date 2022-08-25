@@ -59,8 +59,8 @@ document.getElementById('right-button-slide').addEventListener('click', () => {
 
 const handleShowNavItem = () => {
     let showNavMenuList = document.querySelector(".nav-menu-list")
-    let showNavMenuContact= document.querySelector(".nav-contact")
-    let burgerButton= document.querySelector("#icon-burger")
+    let showNavMenuContact = document.querySelector(".nav-contact")
+    let burgerButton = document.querySelector("#icon-burger")
     if (showNavMenuList.style.display === 'block') {
         showNavMenuList.classList.remove('fade-in')
         showNavMenuList.classList.add('fade-out')
@@ -74,8 +74,14 @@ const handleShowNavItem = () => {
         showNavMenuList.style.display = 'block';
         showNavMenuContact.style.display = 'flex';
         burgerButton.innerHTML = 'close'
-  
+
     }
+}
+
+const handleRedirectContent = () => {
+    document.querySelector('#contact').scrollIntoView({
+        behavior: 'smooth'
+    })
 }
 
 function renderSlideByDots(number) {
