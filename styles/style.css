@@ -489,6 +489,7 @@ footer {
 
     .nav-title > .nav-burger {
         display: block;
+        color: black;
     }
 
 
@@ -597,6 +598,7 @@ footer {
         display: none;
     }
     .nav-contact > button {
+        color: black;
         margin-right: auto;
         margin-left: auto;
     }
