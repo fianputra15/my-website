@@ -90,3 +90,4 @@ function renderSlideByDots(number) {
 }
 
 renderSlideItem()
+slideShow()
