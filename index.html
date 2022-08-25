@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>My Website</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar" id="navbar-container">
+            <div class="nav-title">
+                <span>Fian.</span>
+                <div class="nav-burger">
+                    <button onclick="handleShowNavItem()" id="nav-burger" type="button" style="background: none;border:none"><span id="icon-burger"
+                            class="material-icons">menu</span></button>
+                </div>
+            </div>
+            <div class="nav-menu">
+                <ul class="nav-menu-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portofolio">Portofolio</a></li>
+                </ul>
+            </div>
+        
+            <div class="nav-contact">
+                <button>Let's Chat</button>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <article class="container-photo ">
+                <img class="profile-photo fade" src="./assets/photo-profile.png">
+                <div class="title-photo">
+                    <p>Create Your site in <b>React.js</b> <br>
+
+                    </p>
+                </div>
+                <div class="logo react-logo">
+                    <img src="./assets/react-logo.png">
+                </div>
+                <div class="logo javascript-logo">
+                    <img src="./assets/js-logo.png">
+                </div>
+            </article>
+            <div class="container-group-content">
+                <aside class="container-left">
+                    <div class="container-position">
+                        <span>
+                            HI! I Am
+                        </span>
+                        <span class="position">Frontend Web Developer</span>
+                    </div>
+                    <span class="fullname">Andi Alfian Pratama Putra</span>
+                    <p class="description">Experienced Frontend Web Developer with a demonstrated history of working in
+                        several companies and have created several complex app specially on websites.</p>
+                    <div class="group-btn">
+                        <button type="button" class="btn-hire">Hire Me</button>
+                        <button type="button" class="btn-projects">Projects</button>
+                    </div>
+                    <div class="container-info">
+                        <div class="item-info">
+                            <span>+12</span>
+                            <p>Clients on work worlwides</p>
+                        </div>
+                        <div class="group-info">
+                            <div class="item-info">
+                                <span>
+                                    10
+                                </span>
+                                <p>Projets Done</p>
+                            </div>
+                            <div class="item-info">
+                                <span>Contact</span>
+                                <p>fianputra15798@gmail.com</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </aside>
+                <article class="container-skills">
+                    <div class="skills-title">
+                        <p>Skills</p>
+                        <button>Know More</button>
+                    </div>
+                    <ul class="skills-list">
+                        <li>React JS</li>
+                        <li>Next JS</li>
+                        <li>Redux</li>
+                    </ul>
+                </article>
+            </div>
+
+
+        </div>
+        <div class="container-projects" id="portofolio">
+            <h4>My Projects</h4>
+            <div style="display: flex;">
+                <div class="slider">
+                    <div id="slide-show" class="slide-container">
+
+                    </div>
+
+                    <button class="left-button" id="left-button-slide" type="button"><span
+                            class="material-icons">arrow_back</span></button>
+                    <button class="right-button" id="right-button-slide" type="button"><span
+                            class="material-icons">arrow_forward</span></button>
+                    <div class="dots-group" id="dots-group">
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <br>
+
+    </main>
+    <footer>
+        <div class="footer-content">
+            <h4 style="text-align:center">Fian<br></h4>
+            <div class="display:flex;">
+                <a>
+                    <span class="material-icons">facebook</span>
+                </a>
+                <a>
+                    <span class="material-icons">line</span>
+                </a>
+                <a>
+                    <!-- <span class="material-icons">facebook</span> -->
+                </a>
+                <a>
+                    <!-- <span class="material-icons">facebook</span> -->
+                </a>
+            </div>
+
+            <p>&copy; 2022 </p>
+        </div>
+
+    </footer>
+</body>
+<script src="index.js"></script>
+
+</html>
